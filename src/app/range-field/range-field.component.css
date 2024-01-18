@@ -1,0 +1,44 @@
+.textfield {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+
+label {
+    color: #7D7777;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+
+input {
+    /* appearance: none; */
+    /* outline: none; */
+    border: 2px solid #c9c7c7;
+    height: 40px;
+    padding: 1rem 0.5rem;
+    color: #1e1c1c;
+    font-size: 16px;
+    border-radius: 0;
+    /* border-color: #C9C7C7; */
+    box-shadow: none;
+    transition: border-color 0.3s ease;
+}
+
+
+
+input:active {
+    border-color: #1e1c1c;
+    border-radius: 0;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #7D7777;
+}
+
+.rangefield {
+    display: flex;
+    align-items: end;
+    gap: 0.5rem;
+}

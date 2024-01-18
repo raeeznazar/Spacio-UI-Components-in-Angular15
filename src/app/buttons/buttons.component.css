@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+button {
+    width: 120px;
+    height: 40px;
+    background-color: #1e1c1c;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFAFA;
+    border-radius: 0px;
+    /* letter-spacing: 0.01rem; */
+}
+
+button:hover {
+    background-color: #FFFAFA;
+    color: #1e1c1c;
+}
+
+button:active {
+    background-color: #E4E4E4;
+    color: #1e1c1c;
+}
+
+button.secondary {
+    background-color: #E4E4E4;
+    border: solid 2px #E4E4E4;
+    color: #1e1c1c;
+}
+
+button.secondary:hover {
+    background-color: #C9C7C7;
+}
+
+button.danger {
+    background-color: #F17879;
+    color: #FFFAFA;
+    border: solid 2px #F17879;
+}
+
+button.danger:hover {
+    background-color: #FFFAFA;
+    color: #F17879;
+}
+
+button.main {
+    width: 240px;
+}

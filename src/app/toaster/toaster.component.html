@@ -1,0 +1,9 @@
+<!-- toaster.component.html -->
+
+<div class="toaster" [ngClass]="type" [@toasterState]="'in'" style="gap: 16px; height: 40px;">
+    <div class="icon-container">
+        <img style="padding: 0px;" *ngIf="type === 'success'" src="assets/check.svg" alt="Success Icon">
+        <img style="padding: 0px;" *ngIf="type === 'error'" src="assets/x.svg" alt="Error Icon">
+    </div>
+    <span>{{ message }}</span>
+</div>
