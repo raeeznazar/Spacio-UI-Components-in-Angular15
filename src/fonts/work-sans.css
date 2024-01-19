@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('./WorkSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400; /* Adjust the weight as needed */
+    font-style: normal;
+}
+
+
+@font-face {
+   font-family: 'Work Sans';
+   src: url('./WorkSans-VariableFont_wght.ttf') format('truetype');
+   font-weight: 700; /* Adjust the weight as needed */
+   font-style: bold;
+}
